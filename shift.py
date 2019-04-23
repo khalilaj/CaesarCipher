@@ -5,7 +5,7 @@ alphabet = ["a", "b", "c", "d","e","f","g","h", "i", "j",
             "k", "l", "m", "n","o","p", "q", "r","s", "t",
              "u", "v", "w", "x", "y", "z"]
 
-# A classe that performs the cipher logic
+# A class that performs the cipher logic
 class CaesarCipher:
     def __init__(self,N = 13):
         # N : Number of steps to rotate the alphabet by
