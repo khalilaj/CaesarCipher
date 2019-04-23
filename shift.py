@@ -6,7 +6,7 @@ alphabet = ["a", "b", "c", "d","e","f","g","h", "i", "j",
              "u", "v", "w", "x", "y", "z"]
 
 # A classe that performs the cipher logic
-class CeaserCipher:
+class CaesarCipher:
     def __init__(self,N = 13):
         # N : Number of steps to rotate the alphabet by
         # Default value given is 13 because if you apply N=13 shift 2 you get back the original message --SO COOL--
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     phrase = sys.argv[2]
 
     rotation_distance = 3
-    cipher = CeaserCipher(rotation_distance)
+    cipher = CaesarCipher(rotation_distance)
 
     # Ckeck which action was selected and perform the required action
     if action == "e":
